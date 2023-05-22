@@ -48,7 +48,7 @@ export const GlobalStyle = createGlobalStyle`
     }
     .only-on-mobile {
         display: none;
-
+        
         @media screen and (max-width: 939px) {
             display: block;
         }
