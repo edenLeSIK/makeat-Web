@@ -148,7 +148,7 @@ const HeaderContainer = styled.header`
       .logo {
         display: flex;
         align-items: center;
-        width: 100%;
+        width: auto;
         height: 50px;
 
         @media screen and (max-width: 939px) and (min-width: 767px),
