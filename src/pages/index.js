@@ -17,7 +17,7 @@ const Home = () => {
         image={food}
         headline={
           <>
-            당신에게 맞춘
+            당신에게 <br /> 맞춘
             <br /> 건강식단, makeat
           </>
         }
