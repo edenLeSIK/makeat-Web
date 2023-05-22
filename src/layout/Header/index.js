@@ -51,7 +51,10 @@ const Header = () => {
     !(router.pathname === "/makeat") && (
       <>
         <HeaderContainer
-          style={{ backgroundColor, iconColor, fontColor, boxShadow }}
+          icon={iconColor}
+          background={backgroundColor}
+          font={fontColor}
+          shadow={boxShadow}
         >
           <div className="header-wrapper">
             {isHeaderModal ? (
@@ -91,10 +94,10 @@ const HeaderContainer = styled.header`
   align-items: center;
   width: 100%;
   padding: 15px 4.44vw;
-  background-color: ${(props) => props.backgroundColor};
+  background-color: ${(props) => props.background};
   transition: background-color 0.2s ease;
   z-index: 50;
-  box-shadow: ${(props) => props.boxShadow};
+  box-shadow: ${(props) => props.shadow};
   overflow: hidden;
 
   @media screen and (max-width: 939px) and (min-width: 767px),
@@ -123,7 +126,7 @@ const HeaderContainer = styled.header`
       align-self: center;
       justify-self: flex-start;
       margin: auto 0;
-      color: ${(props) => props.iconColor};
+      color: ${(props) => props.icon};
       font-size: 2.75rem;
       transition: all 0.2s ease;
       cursor: pointer;
@@ -170,7 +173,7 @@ const HeaderContainer = styled.header`
 
       li > a {
         padding: 0 8px;
-        color: ${(props) => props.fontColor};
+        color: ${(props) => props.font};
         font-size: 1.125rem;
         font-weight: 700;
       }

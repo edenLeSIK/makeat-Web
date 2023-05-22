@@ -2,9 +2,9 @@ import { useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import styled from "styled-components";
+import Button from "@/components/Button";
 import { navList } from "@/constants/nav";
 import { gray, main, white } from "@/styles/theme";
-import Button from "@/components/Button";
 
 const HeaderModal = ({ setIsHeaderModal }) => {
   const router = useRouter();
