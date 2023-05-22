@@ -1,7 +1,16 @@
-import React from "react";
+import styled from "styled-components";
+import MakeatPc from "@/components/MakeatPc";
+import MakeatMobile from "@/components/MakeatMobile";
 
 const Makeat = () => {
-  return <div>메이킷 어플</div>;
+  return (
+    <MakeatContainer>
+      <MakeatPc />
+      <MakeatMobile />
+    </MakeatContainer>
+  );
 };
+
+const MakeatContainer = styled.main``;
 
 export default Makeat;
