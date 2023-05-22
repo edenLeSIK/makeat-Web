@@ -1,0 +1,19 @@
+export const white = "#fff";
+export const black = "#000";
+export const fontColor = "#20202b";
+export const darkGray = "#4a4a5a";
+export const gray = "#9791a1";
+export const main = "#00b590";
+export const mainHover = "#00a590";
+export const purple = "#a357ef";
+export const purpleHover = "#a377ef";
+export const lightPurple = "#f3edf9";
+export const vividPink = "#ff006c";
+export const pinkHover = "#ff506c";
+export const yellow = "#eefd47";
+export const yellowHover = "#c7eb3a";
+export const orange = "#ff6e40";
+export const orangeHover = "#ff8e40";
+export const red = "#ff0000";
+
+export const contentBackground = "#f1f2f6";
