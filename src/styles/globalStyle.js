@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 import reset from "styled-reset";
-import { black } from "./theme";
+import { black } from "@/styles/theme";
 
 export const GlobalStyle = createGlobalStyle`
     ${reset}
@@ -48,7 +48,7 @@ export const GlobalStyle = createGlobalStyle`
     }
     .only-on-mobile {
         display: none;
-
+        
         @media screen and (max-width: 939px) {
             display: block;
         }
