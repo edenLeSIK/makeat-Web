@@ -57,11 +57,10 @@ const SectionContainer = styled.section`
     }
 
     h1 {
-      /* width: 36.6716666667vw; */
       width: 30vw;
       padding: 0 0 32px;
       color: ${white};
-      font-size: 5.3333333333rem;
+      font-size: 5rem;
       font-weight: 700;
       line-height: 1;
       letter-spacing: 0.01rem;
