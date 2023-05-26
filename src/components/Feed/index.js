@@ -10,10 +10,10 @@ const Feed = () => {
     <FeedContainer>
       <div className="headline-wrapper">
         <h6>latest news</h6>
-        <h2>We are all</h2>
-        <div className="hide-on-mobile">
+        <h2>We are one</h2>
+        {/* <div className="hide-on-mobile">
           <Button text="Read More" color="yellow" />
-        </div>
+        </div> */}
       </div>
       <div className="feed-wrapper">
         {a.map((_, i) => (
