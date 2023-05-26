@@ -10,8 +10,15 @@ const Feed = () => {
     <FeedContainer>
       <div className="headline-wrapper">
         <h6>latest news</h6>
+<<<<<<< HEAD
+        <h2>We are one</h2>
+        {/* <div className="hide-on-mobile">
+          <Button text="Read More" color="yellow" />
+        </div> */}
+=======
         <h2>lates dd readread make read</h2>
         <Button text="Read More" color="yellow" />
+>>>>>>> main
       </div>
       <div className="feed-wrapper">
         {a.map((_, i) => (
@@ -35,6 +42,23 @@ const FeedContainer = styled.section`
   padding-right: 4.44vw;
   background: #20202b;
 
+<<<<<<< HEAD
+  @media screen and (max-width: 939px) and (min-width: 767px),
+    screen and (max-width: 766px) {
+    display: -webkit- flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: stretch;
+    justify-content: stretch;
+    row-gap: 40px;
+    padding: 64px 4.44vw;
+  }
+
+=======
+>>>>>>> main
   .headline-wrapper {
     display: -webkit- flex;
     display: flex;
@@ -48,6 +72,15 @@ const FeedContainer = styled.section`
     width: 28.8933333333vw;
     padding: 0 calc(5.5583333333vw / 2) 0 0;
 
+<<<<<<< HEAD
+    @media screen and (max-width: 939px) and (min-width: 767px),
+      screen and (max-width: 766px) {
+      width: 100%;
+      padding: 0;
+    }
+
+=======
+>>>>>>> main
     h6 {
       color: #9797a1;
       font-size: 0.8888888889rem;
@@ -55,6 +88,15 @@ const FeedContainer = styled.section`
       line-height: 1.1;
       letter-spacing: 0.1rem;
       text-transform: uppercase;
+<<<<<<< HEAD
+
+      @media screen and (max-width: 939px) and (min-width: 767px),
+        screen and (max-width: 766px) {
+        font-size: 0.6666666667rem;
+        line-height: 1;
+      }
+=======
+>>>>>>> main
     }
 
     h2 {
@@ -64,11 +106,29 @@ const FeedContainer = styled.section`
       line-height: 0.95;
       letter-spacing: 0.01rem;
       text-transform: uppercase;
+<<<<<<< HEAD
+
+      @media screen and (max-width: 939px) and (min-width: 767px),
+        screen and (max-width: 766px) {
+        font-size: 2.6666666667rem;
+      }
+    }
+  }
+
+  .feed-wrapper {
+    width: 60.0066666667vw;
+
+    @media screen and (max-width: 939px) and (min-width: 767px),
+      screen and (max-width: 766px) {
+      width: 100%;
+    }
+=======
     }
   }
 
   .content-wrapper {
     width: 60.0066666667vw;
+>>>>>>> main
   }
 `;
 

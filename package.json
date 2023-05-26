@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "vercel-deploy": "next build && next export"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
@@ -21,6 +22,10 @@
     "styled-reset": "^4.4.7"
   },
   "devDependencies": {
+<<<<<<< HEAD
+    "@svgr/webpack": "^8.0.1",
+=======
+>>>>>>> main
     "babel-plugin-styled-components": "^2.1.3"
   }
 }
