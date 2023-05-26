@@ -1,8 +1,14 @@
 import styled from "styled-components";
 
+<<<<<<< HEAD
 const MakeatMobile = ({ className }) => {
   return (
     <MakeatMobileContainer className="className">
+=======
+const MakeatMobile = () => {
+  return (
+    <MakeatMobileContainer>
+>>>>>>> main
       <div className="header">
         <header>
           <div></div>
@@ -18,6 +24,7 @@ const MakeatMobile = ({ className }) => {
 const MakeatMobileContainer = styled.section`
   position: relative;
   width: 100%;
+<<<<<<< HEAD
   max-width: 475px;
   padding-bottom: 60px;
   box-sizing: border-box;
@@ -27,6 +34,11 @@ const MakeatMobileContainer = styled.section`
     margin-left: -237.5px;
   }
 
+=======
+  padding-bottom: 60px;
+  box-sizing: border-box;
+
+>>>>>>> main
   ::before {
     content: "";
     position: fixed;
@@ -39,6 +51,7 @@ const MakeatMobileContainer = styled.section`
     z-index: 10000;
     user-select: none;
     pointer-events: none;
+<<<<<<< HEAD
 
     @media (min-width: 475px) {
       left: 50%;
@@ -53,6 +66,18 @@ const MakeatMobileContainer = styled.section`
     @media (max-width: 475px) {
       display: none;
     }
+=======
+  }
+
+  @media (min-width: 915px) {
+    max-width: 475px;
+    margin-left: -17.5px;
+  }
+
+  @media (min-width: 475px) {
+    left: 50%;
+    margin-left: -237.5px;
+>>>>>>> main
   }
 
   .header {

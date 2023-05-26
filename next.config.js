@@ -9,6 +9,7 @@ const nextConfig = {
       cssProp: true,
     },
   },
+<<<<<<< HEAD
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
@@ -19,4 +20,8 @@ const nextConfig = {
   },
 };
 
+=======
+};
+
+>>>>>>> main
 module.exports = nextConfig;
