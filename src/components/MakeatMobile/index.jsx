@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-const MakeatMobile = () => {
+const MakeatMobile = ({ className }) => {
   return (
-    <MakeatMobileContainer>
+    <MakeatMobileContainer className="className">
       <div className="header">
         <header>
           <div></div>
@@ -18,8 +18,14 @@ const MakeatMobile = () => {
 const MakeatMobileContainer = styled.section`
   position: relative;
   width: 100%;
+  max-width: 475px;
   padding-bottom: 60px;
   box-sizing: border-box;
+
+  @media (min-width: 475px) {
+    left: 50%;
+    margin-left: -237.5px;
+  }
 
   ::before {
     content: "";
@@ -33,16 +39,20 @@ const MakeatMobileContainer = styled.section`
     z-index: 10000;
     user-select: none;
     pointer-events: none;
-  }
 
-  @media (min-width: 915px) {
-    max-width: 475px;
-    margin-left: -17.5px;
-  }
+    @media (min-width: 475px) {
+      left: 50%;
+      margin-left: -237.5px;
+    }
 
-  @media (min-width: 475px) {
-    left: 50%;
-    margin-left: -237.5px;
+    @media (min-width: 915px) {
+      max-width: 475px;
+      margin-left: -17.5px;
+    }
+
+    @media (max-width: 475px) {
+      display: none;
+    }
   }
 
   .header {
