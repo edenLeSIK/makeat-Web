@@ -49,6 +49,10 @@ const MakeatMobileContainer = styled.section`
       max-width: 475px;
       margin-left: -17.5px;
     }
+
+    @media (max-width: 475px) {
+      display: none;
+    }
   }
 
   .header {
