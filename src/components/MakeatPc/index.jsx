@@ -1,20 +1,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-<<<<<<< HEAD
-<<<<<<< HEAD
 import Image from "next/image";
-import styled from "styled-components";
-import { BsSearch } from "react-icons/bs";
-import { fontColor, gray, main, white } from "@/styles/theme";
-import AppStore from "@/assets/Download_on_the_App_Store_Badge_KR_RGB_wht_100317.svg";
-import googlePlay from "@/assets/google_play.png";
-
-const MakeatPc = ({ className }) => {
-=======
-=======
-import Image from "next/image";
->>>>>>> main
 import styled from "styled-components";
 import { BsSearch } from "react-icons/bs";
 import { fontColor, gray, main, white } from "@/styles/theme";
@@ -22,11 +9,6 @@ import AppStore from "@/assets/Download_on_the_App_Store_Badge_KR_RGB_wht_100317
 import googlePlay from "@/assets/google_play.png";
 
 const MakeatPc = () => {
-<<<<<<< HEAD
->>>>>>> main
-=======
-
->>>>>>> main
   const router = useRouter();
   const [search, setSearch] = useState("");
 
@@ -35,16 +17,10 @@ const MakeatPc = () => {
     router.push(`?search=${search}`);
   };
 
-  const handleQuery = (e) => {
-    setSearch(e.target.value);
-  };
+  const handleQuery = (e) => setSearch(e.target.value);
 
   return (
-<<<<<<< HEAD
-    <MakeatPcContainer className={className}>
-=======
     <MakeatPcContainer>
->>>>>>> main
       <div className="main">
         <Link href="/" className="link">
           당신에게 딱 맞춘 건강식단<span className="makeat">메이킷</span>
@@ -75,24 +51,10 @@ const MakeatPc = () => {
         </div>
         <div className="app-wrapper">
           <a href="https://play.google.com/store/apps" target="_blank">
-<<<<<<< HEAD
-<<<<<<< HEAD
             <Image alt="google-play" src={googlePlay} className="google-play" />
           </a>
           <a href="https://play.google.com/store/apps" target="_blank">
             <AppStore className="app-download" />
-=======
-            <img alt="app-download" src={google} className="app-download" />
-          </a>
-          <a href="https://play.google.com/store/apps" target="_blank">
-            <img alt="app-download" src={google} className="app-download" />
->>>>>>> main
-=======
-            <Image alt="google-play" src={googlePlay} className="google-play" />
-          </a>
-          <a href="https://play.google.com/store/apps" target="_blank">
-            <AppStore className="app-download" />
->>>>>>> main
           </a>
         </div>
       </div>
@@ -113,19 +75,10 @@ const MakeatPcContainer = styled.section`
   background: ${white};
   z-index: 1000;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> main
   @media (max-width: 915px) {
     display: none;
   }
 
-<<<<<<< HEAD
-=======
->>>>>>> main
-=======
->>>>>>> main
   .main {
     width: 310px;
     padding-top: 15px;
@@ -229,8 +182,6 @@ const MakeatPcContainer = styled.section`
 
     .app-wrapper {
       display: flex;
-<<<<<<< HEAD
-<<<<<<< HEAD
       width: inherit;
       margin-top: 18px;
 
@@ -240,24 +191,6 @@ const MakeatPcContainer = styled.section`
         .google-play {
           width: inherit;
           height: auto;
-=======
-      margin-top: 18px;
-
-      a {
-        .app-download {
-          width: 112px;
->>>>>>> main
-=======
-      width: inherit;
-      margin-top: 18px;
-
-      a {
-        width: 150px;
-
-        .google-play {
-          width: inherit;
-          height: auto;
->>>>>>> main
         }
       }
 
