@@ -22,10 +22,7 @@
     "styled-reset": "^4.4.7"
   },
   "devDependencies": {
-<<<<<<< HEAD
     "@svgr/webpack": "^8.0.1",
-=======
->>>>>>> main
     "babel-plugin-styled-components": "^2.1.3"
   }
 }
