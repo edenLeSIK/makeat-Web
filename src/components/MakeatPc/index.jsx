@@ -8,7 +8,8 @@ import { fontColor, gray, main, white } from "@/styles/theme";
 import AppStore from "@/assets/Download_on_the_App_Store_Badge_KR_RGB_wht_100317.svg";
 import googlePlay from "@/assets/google_play.png";
 
-const MakeatPc = ({ className }) => {
+const MakeatPc = () => {
+
   const router = useRouter();
   const [search, setSearch] = useState("");
 

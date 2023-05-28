@@ -14,6 +14,8 @@ const Feed = () => {
         <div className="hide-on-mobile">
           <Button text="Read More" color="yellow" />
         </div>
+        <h2>lates dd readread make read</h2>
+        <Button text="Read More" color="yellow" />
       </div>
       <div className="feed-wrapper">
         {a.map((_, i) => (
@@ -97,6 +99,16 @@ const FeedContainer = styled.section`
         screen and (max-width: 766px) {
         font-size: 2.6666666667rem;
       }
+    }
+  }
+
+  .feed-wrapper {
+    width: 60.0066666667vw;
+
+    @media screen and (max-width: 939px) and (min-width: 767px),
+      screen and (max-width: 766px) {
+      width: 100%;
+    }
     }
   }
 
