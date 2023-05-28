@@ -101,7 +101,6 @@ const SectionContainer = styled.section`
         margin-left: 50px;
       }
     }
-
     div + div {
       margin-left: 20px;
     }
