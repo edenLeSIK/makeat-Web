@@ -109,6 +109,14 @@ const FeedContainer = styled.section`
       screen and (max-width: 766px) {
       width: 100%;
     }
+  }
+
+  .feed-wrapper {
+    width: 60.0066666667vw;
+
+    @media screen and (max-width: 939px) and (min-width: 767px),
+      screen and (max-width: 766px) {
+      width: 100%;
     }
   }
 

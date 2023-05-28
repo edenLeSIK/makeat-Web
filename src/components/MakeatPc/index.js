@@ -9,7 +9,6 @@ import AppStore from "@/assets/Download_on_the_App_Store_Badge_KR_RGB_wht_100317
 import googlePlay from "@/assets/google_play.png";
 
 const MakeatPc = () => {
-
   const router = useRouter();
   const [search, setSearch] = useState("");
 
@@ -18,9 +17,7 @@ const MakeatPc = () => {
     router.push(`?search=${search}`);
   };
 
-  const handleQuery = (e) => {
-    setSearch(e.target.value);
-  };
+  const handleQuery = (e) => setSearch(e.target.value);
 
   return (
     <MakeatPcContainer>
