@@ -2,6 +2,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import Image from "next/image";
 import styled from "styled-components";
 import { BsSearch } from "react-icons/bs";
@@ -11,12 +12,20 @@ import googlePlay from "@/assets/google_play.png";
 
 const MakeatPc = ({ className }) => {
 =======
+=======
+import Image from "next/image";
+>>>>>>> main
 import styled from "styled-components";
 import { BsSearch } from "react-icons/bs";
 import { fontColor, gray, main, white } from "@/styles/theme";
-import google from "@/assets/google-play-badge.png";
+import AppStore from "@/assets/Download_on_the_App_Store_Badge_KR_RGB_wht_100317.svg";
+import googlePlay from "@/assets/google_play.png";
 
 const MakeatPc = () => {
+<<<<<<< HEAD
+>>>>>>> main
+=======
+
 >>>>>>> main
   const router = useRouter();
   const [search, setSearch] = useState("");
@@ -67,6 +76,7 @@ const MakeatPc = () => {
         <div className="app-wrapper">
           <a href="https://play.google.com/store/apps" target="_blank">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <Image alt="google-play" src={googlePlay} className="google-play" />
           </a>
           <a href="https://play.google.com/store/apps" target="_blank">
@@ -76,6 +86,12 @@ const MakeatPc = () => {
           </a>
           <a href="https://play.google.com/store/apps" target="_blank">
             <img alt="app-download" src={google} className="app-download" />
+>>>>>>> main
+=======
+            <Image alt="google-play" src={googlePlay} className="google-play" />
+          </a>
+          <a href="https://play.google.com/store/apps" target="_blank">
+            <AppStore className="app-download" />
 >>>>>>> main
           </a>
         </div>
@@ -98,10 +114,16 @@ const MakeatPcContainer = styled.section`
   z-index: 1000;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
   @media (max-width: 915px) {
     display: none;
   }
 
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> main
   .main {
@@ -208,6 +230,7 @@ const MakeatPcContainer = styled.section`
     .app-wrapper {
       display: flex;
 <<<<<<< HEAD
+<<<<<<< HEAD
       width: inherit;
       margin-top: 18px;
 
@@ -223,6 +246,17 @@ const MakeatPcContainer = styled.section`
       a {
         .app-download {
           width: 112px;
+>>>>>>> main
+=======
+      width: inherit;
+      margin-top: 18px;
+
+      a {
+        width: 150px;
+
+        .google-play {
+          width: inherit;
+          height: auto;
 >>>>>>> main
         }
       }

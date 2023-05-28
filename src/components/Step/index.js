@@ -34,11 +34,9 @@ const StepContainer = styled.div`
     align-items: stretch;
     -webkit-justify-content: center;
     justify-content: center;
-    padding: 48px 0;
+    padding: 48px 20vw;
     flex-wrap: wrap;
     margin: 0px auto;
-    padding-left: 15.5566666667vw;
-    padding-right: 15.5566666667vw;
 
     @media screen and (max-width: 766px) and (max-width: 766px) {
       justify-content: space-evenly;

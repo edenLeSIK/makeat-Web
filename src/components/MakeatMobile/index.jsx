@@ -25,7 +25,19 @@ const MakeatMobileContainer = styled.section`
   position: relative;
   width: 100%;
 <<<<<<< HEAD
+<<<<<<< HEAD
   max-width: 475px;
+=======
+  max-width: 475px;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+
+  @media (min-width: 475px) {
+    left: 50%;
+    margin-left: -237.5px;
+  }
+  
+>>>>>>> main
   padding-bottom: 60px;
   box-sizing: border-box;
 
@@ -52,6 +64,9 @@ const MakeatMobileContainer = styled.section`
     user-select: none;
     pointer-events: none;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 
     @media (min-width: 475px) {
       left: 50%;
@@ -66,14 +81,27 @@ const MakeatMobileContainer = styled.section`
     @media (max-width: 475px) {
       display: none;
     }
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
   }
 
-  @media (min-width: 915px) {
-    max-width: 475px;
-    margin-left: -17.5px;
-  }
 
+    @media (min-width: 475px) {
+      left: 50%;
+      margin-left: -237.5px;
+    }
+
+    @media (min-width: 915px) {
+      max-width: 475px;
+      margin-left: -17.5px;
+    }
+
+    @media (max-width: 475px) {
+      display: none;
+    }
+    
   @media (min-width: 475px) {
     left: 50%;
     margin-left: -237.5px;
