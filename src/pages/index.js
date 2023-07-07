@@ -4,7 +4,7 @@ import MainContent from "@/components/MainContent";
 import SubContent from "@/components/SubContent";
 import AdsContent from "@/components/AdsContent";
 import food from "@/assets/makeat1.jpg";
-import { forFranchiseContentList } from "@/constants/content";
+import { forFranchiseContentList, forCustomerContentList } from "@/constants/content";
 
 const Home = () => {
   const router = useRouter();
@@ -33,9 +33,11 @@ const Home = () => {
       <SubContent
         color="on"
         label="Customers"
-        headline="How we makeat?"
+        headline={<>초개인화 생성기반 푸드 서비스</>}
+        desc="나의 건강상태에 맞춰 조리되는 개인화 메뉴"
         text="makeat 알아보기"
         onClick={navigateToCustomerPage}
+        concept={forCustomerContentList}
       />
       {/* <SubContent
         label="Creators"

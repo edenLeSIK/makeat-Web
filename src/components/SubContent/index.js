@@ -41,7 +41,7 @@ const SubContent = ({ color, label, headline, text, onClick, concept, desc }) =>
           </div>
         </div>
         <div className="content-wrapper">
-          {list.map((content) => (
+          {concept.map((content) => (
             <div className="content-item" key={content.headline}>
               <h3 className="sub-headline">{content.headline}</h3>
               <p className="text">{content.text}</p>
