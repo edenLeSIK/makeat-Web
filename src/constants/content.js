@@ -4,7 +4,7 @@ export const forFranchiseContentList = [
     text: "최초의 고객 개개인의 맞춤형 푸드 서비스로 초기시장 선점",
   },
   {
-    headline: "기존 주방 활용",
+    headline: "기존주방 활용",
     text: "주문부터 조리 배송까지 모든 과정이 디지털로 통제되는 간단하고 정확한 매장운영으로 기존 주방 활용 가능",
   },
   {
