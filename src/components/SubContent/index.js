@@ -2,24 +2,24 @@ import styled from "styled-components";
 import Button from "../Button";
 import { purple, contentBackground } from "@/styles/theme";
 
-let list = [
-  {
-    headline: "Create Your Perfect makeat",
-    text: "당신의 건강한 식단을 책임질게요 당신의 건강한 식단을 책임질게요당신의 건강한 식단을 책임질게요",
-  },
-  {
-    headline: "Design Your Own makeat",
-    text: "당신의 건강한 식단을 책임질게요당신의 건강한 식단을 책임질게요 당신의 건강한 식단을 책임질게요당신의 건강한 식단을 책임질게요당신의 건강한 식단을 책임질게요",
-  },
-  {
-    headline: "Healthy makeat, Your Way",
-    text: "당신의 건강한 식단을 책임질게요당신의 건강한 식단을 책임질게요",
-  },
-  {
-    headline: "Build Your Ideal makeat",
-    text: "당신의 건강한 식단을 책임질게요",
-  },
-];
+// let list = [
+//   {
+//     headline: "Create Your Perfect makeat",
+//     text: "당신의 건강한 식단을 책임질게요 당신의 건강한 식단을 책임질게요당신의 건강한 식단을 책임질게요",
+//   },
+//   {
+//     headline: "Design Your Own makeat",
+//     text: "당신의 건강한 식단을 책임질게요당신의 건강한 식단을 책임질게요 당신의 건강한 식단을 책임질게요당신의 건강한 식단을 책임질게요당신의 건강한 식단을 책임질게요",
+//   },
+//   {
+//     headline: "Healthy makeat, Your Way",
+//     text: "당신의 건강한 식단을 책임질게요당신의 건강한 식단을 책임질게요",
+//   },
+//   {
+//     headline: "Build Your Ideal makeat",
+//     text: "당신의 건강한 식단을 책임질게요",
+//   },
+// ];
 
 const SubContent = ({ color, label, headline, text, onClick, concept, desc }) => {
   return (
