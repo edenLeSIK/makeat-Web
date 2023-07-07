@@ -5,6 +5,7 @@ import FigureSlider from "@/components/FigureSlider";
 import SubContent from "@/components/SubContent";
 import StageContent from "@/components/StageContent";
 import kitchen from "@/assets/kitchen.png";
+import { makeatContentList } from "@/constants/content";
 
 const Franchise = () => {
   const router = useRouter();
@@ -25,8 +26,8 @@ const Franchise = () => {
         color="orange"
       />
       <FigureSlider />
-      <SubContent headline="what do you makeat?" />
-      <SubContent color="on" headline="why you makeat?" />
+      <SubContent headline="what do you makeat?" concept={makeatContentList} />
+      <SubContent color="on" headline="why you makeat?" concept={makeatContentList} />
       <FigureSlider color="off" />
       <StageContent />
     </FranchiseContainer>
