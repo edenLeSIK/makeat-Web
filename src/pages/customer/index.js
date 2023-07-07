@@ -3,6 +3,7 @@ import styled from "styled-components";
 import MainContent from "@/components/MainContent";
 import SubContent from "@/components/SubContent";
 import food from "@/assets/makeat2.jpg";
+import { makeatContentList } from "@/constants/content";
 
 const Customer = () => {
   const router = useRouter();
@@ -22,8 +23,8 @@ const Customer = () => {
         onClick={navigateToMakeatPage}
         color="pink"
       />
-      <SubContent label="you all makeat" headline="ddd" />
-      <SubContent color="on" label="you all makeat" headline="ddd" />
+      <SubContent label="you all makeat" headline="ddd" concept={makeatContentList} />
+      <SubContent color="on" label="you all makeat" headline="ddd" concept={makeatContentList} />
     </CustomerContainer>
   );
 };

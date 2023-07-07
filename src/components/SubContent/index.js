@@ -2,37 +2,33 @@ import styled from "styled-components";
 import Button from "../Button";
 import { purple, contentBackground } from "@/styles/theme";
 
-let list = [
-  {
-    headline: "Create Your Perfect makeat",
-    text: "당신의 건강한 식단을 책임질게요 당신의 건강한 식단을 책임질게요당신의 건강한 식단을 책임질게요",
-  },
-  {
-    headline: "Design Your Own makeat",
-    text: "당신의 건강한 식단을 책임질게요당신의 건강한 식단을 책임질게요 당신의 건강한 식단을 책임질게요당신의 건강한 식단을 책임질게요당신의 건강한 식단을 책임질게요",
-  },
-  {
-    headline: "Healthy makeat, Your Way",
-    text: "당신의 건강한 식단을 책임질게요당신의 건강한 식단을 책임질게요",
-  },
-  {
-    headline: "Build Your Ideal makeat",
-    text: "당신의 건강한 식단을 책임질게요",
-  },
-];
+// let list = [
+//   {
+//     headline: "Create Your Perfect makeat",
+//     text: "당신의 건강한 식단을 책임질게요 당신의 건강한 식단을 책임질게요당신의 건강한 식단을 책임질게요",
+//   },
+//   {
+//     headline: "Design Your Own makeat",
+//     text: "당신의 건강한 식단을 책임질게요당신의 건강한 식단을 책임질게요 당신의 건강한 식단을 책임질게요당신의 건강한 식단을 책임질게요당신의 건강한 식단을 책임질게요",
+//   },
+//   {
+//     headline: "Healthy makeat, Your Way",
+//     text: "당신의 건강한 식단을 책임질게요당신의 건강한 식단을 책임질게요",
+//   },
+//   {
+//     headline: "Build Your Ideal makeat",
+//     text: "당신의 건강한 식단을 책임질게요",
+//   },
+// ];
 
-const SubContent = ({ color, label, headline, text, onClick }) => {
+const SubContent = ({ color, label, headline, text, onClick, concept, desc }) => {
   return (
     <SectionContainer color={color}>
       <h6>{label}</h6>
       <div className="content">
         <div className="headline-wrapper">
           <h2 className="headline">{headline}</h2>
-          <h5 className="description">
-            dmkfmdkfkdnkdkndk nknknaknkandknkadmkf mdkfkdnk dkndknknkna
-            knkandknkadmk fmdkfkdn kdkndknknk naknkandknkadmkf mdkfkdnkdkndk
-            nknknaknkandknk admkfmdkfkdnkdkndknknknaknk andknka
-          </h5>
+          <h5 className="description">{desc}</h5>
           <div className="button-wrapper web">
             {text && (
               <Button
@@ -45,7 +41,7 @@ const SubContent = ({ color, label, headline, text, onClick }) => {
           </div>
         </div>
         <div className="content-wrapper">
-          {list.map((content) => (
+          {concept.map((content) => (
             <div className="content-item" key={content.headline}>
               <h3 className="sub-headline">{content.headline}</h3>
               <p className="text">{content.text}</p>

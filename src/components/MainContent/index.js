@@ -47,7 +47,7 @@ const SectionContainer = styled.section`
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 40.6716666667vw;
+    // width: 60.6716666667vw;
     padding: 0 0 56px;
     padding-left: 4.44vw;
 
@@ -57,10 +57,10 @@ const SectionContainer = styled.section`
     }
 
     h1 {
-      width: 30vw;
+      // width: 30vw;
       padding: 0 0 32px;
       color: ${white};
-      font-size: 5rem;
+      font-size: 4rem;
       font-weight: 700;
       line-height: 1;
       letter-spacing: 0.01rem;
@@ -69,14 +69,14 @@ const SectionContainer = styled.section`
 
       @media screen and (max-width: 939px) and (min-width: 767px),
         screen and (max-width: 766px) {
-        width: 91.12vw;
+        // width: 91.12vw;
         padding: 0 0 16px;
         font-size: 3.5555555556rem;
       }
     }
 
     h5 {
-      width: 30.33333333333vw;
+      // width: 30.33333333333vw;
       color: ${white};
       font-size: 1.3333333333rem;
       font-weight: 400;

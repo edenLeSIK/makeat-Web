@@ -1,27 +1,65 @@
+export const forFranchiseContentList = [
+  {
+    headline: "초개인화 푸드 서비스​",
+    text: "최초의 고객 개개인의 맞춤형 푸드 서비스로 초기시장 선점",
+  },
+  {
+    headline: "기존 주방 활용",
+    text: "주문부터 조리 배송까지 모든 과정이 디지털로 통제되는 간단하고 정확한 매장운영으로 기존 주방 활용 가능",
+  },
+  {
+    headline: "앱기반 프랜차이즈​",
+    text: "수요를 먼저 확보하고 가맹을 하는 구조로 실패율이 낮으며 앱에 주문이 집중되므로 별도의 영업활동이 불필요​",
+  },
+  {
+    headline: "카트리지 시스템",
+    text: "카트리지의 조합만으로 요리가 구성되는 손 쉬운 조리 과정으로 최소 인력으로 운영 가능​",
+  },
+]
+
+export const forCustomerContentList = [
+  {
+    headline: "초개인화 푸드 서비스​",
+    text: "내 건강상태에 맞게 제공되는 개인화 메뉴",
+  },
+  {
+    headline: "생성기반 서비스",
+    text: "기존의 냉동 가공식품 추천이 아닌 나에게 맞춰 직접 조리되는 나만의 메뉴​",
+  },
+  {
+    headline: "다양한 식재료를 활용한 무한에 가까운 메뉴​",
+    text: "내 건강상태에 맞게 제공되는 개인화 메뉴",
+  },
+  {
+    headline: "건강한 식사의 새로운 컨셉",
+    text: "기존의 건강식은 왜 맛이 없는걸까? 냉동 가공식품도 정말 건강식일까? 건강한 재료와 건강한 레시피로 가장 맛있게 제공되는 Makeat​",
+  },
+]
+
 export const makeatContentList = [
+  // {
+  //   headline: "당신에게 맞춘 건강식단, makeat",
+  //   description:
+  //     "dmkfmdkfkdnkdkndk nknknaknkandknkadmkf mdkfkdnk dkndknknkna knkandknkadmk fmdkfkdn kdkndknknk naknkandknkadmkf mdkfkdnkdkndk nknknaknkandknk admkfmdkfkdnkdkndknknknaknk andknka",
+  // },
   {
-    headline: "당신에게 맞춘 건강식단, makeat",
-    description:
-      "dmkfmdkfkdnkdkndk nknknaknkandknkadmkf mdkfkdnk dkndknknkna knkandknkadmk fmdkfkdn kdkndknknk naknkandknkadmkf mdkfkdnkdkndk nknknaknkandknk admkfmdkfkdnkdkndknknknaknk andknka",
-  },
-  {
-    subheadline: "create your perfect makeat",
-    description:
+    headline: "create your perfect makeat",
+    text:
       "당신의 건강한 식단을 책임질게요 당신의 건강한 식단을 책임질게요 당신의 건강한 식단을 책임질게요",
   },
   {
-    subheadline: "design your own makeat",
-    description:
+    headline: "design your own makeat",
+    text:
       "당신의 건강한 식단을 책임질게요 당신의 건강한 식단을 책임질게요 당신의 건강한 식단을 책임질게요",
   },
   {
-    subheadline: "healthy makeat, your way",
-    description:
+    headline: "healthy makeat, your way",
+    text:
       "당신의 건강한 식단을 책임질게요 당신의 건강한 식단을 책임질게요 당신의 건강한 식단을 책임질게요",
   },
   {
-    subheadline: "build your ideal makeat",
-    description:
+    headline: "build your ideal makeat",
+    text:
       "당신의 건강한 식단을 책임질게요 당신의 건강한 식단을 책임질게요 당신의 건강한 식단을 책임질게요",
   },
 ];
