@@ -21,18 +21,14 @@ let list = [
   },
 ];
 
-const SubContent = ({ color, label, headline, text, onClick }) => {
+const SubContent = ({ color, label, headline, text, onClick, concept, desc }) => {
   return (
     <SectionContainer color={color}>
       <h6>{label}</h6>
       <div className="content">
         <div className="headline-wrapper">
           <h2 className="headline">{headline}</h2>
-          <h5 className="description">
-            dmkfmdkfkdnkdkndk nknknaknkandknkadmkf mdkfkdnk dkndknknkna
-            knkandknkadmk fmdkfkdn kdkndknknk naknkandknkadmkf mdkfkdnkdkndk
-            nknknaknkandknk admkfmdkfkdnkdkndknknknaknk andknka
-          </h5>
+          <h5 className="description">{desc}</h5>
           <div className="button-wrapper web">
             {text && (
               <Button

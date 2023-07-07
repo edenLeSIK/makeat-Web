@@ -1,3 +1,20 @@
+export const forFranchiseContentList = [
+  {
+    headline: "당신에게 맞춘 건강식단, makeat",
+    description:
+      "dmkfmdkfkdnkdkndk nknknaknkandknkadmkf mdkfkdnk dkndknknkna knkandknkadmk fmdkfkdn kdkndknknk naknkandknkadmkf mdkfkdnkdkndk nknknaknkandknk admkfmdkfkdnkdkndknknknaknk andknka",
+  },[
+  {
+    headline: "Create Your Perfect makeat",
+    text: "당신의 건강한 식단을 책임질게요 당신의 건강한 식단을 책임질게요당신의 건강한 식단을 책임질게요",
+  },
+  {
+    headline: "Design Your Own makeat",
+    text: "당신의 건강한 식단을 책임질게요당신의 건강한 식단을 책임질게요 당신의 건강한 식단을 책임질게요당신의 건강한 식단을 책임질게요당신의 건강한 식단을 책임질게요",
+  },
+]
+]
+
 export const makeatContentList = [
   {
     headline: "당신에게 맞춘 건강식단, makeat",

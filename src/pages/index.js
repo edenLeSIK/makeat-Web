@@ -4,6 +4,7 @@ import MainContent from "@/components/MainContent";
 import SubContent from "@/components/SubContent";
 import AdsContent from "@/components/AdsContent";
 import food from "@/assets/makeat1.jpg";
+import { forFranchiseContentList } from "@/constants/content";
 
 const Home = () => {
   const router = useRouter();
@@ -15,17 +16,19 @@ const Home = () => {
     <HomeContainer>
       <MainContent
         image={food}
-        headline={<>당신에게 맞춘 건강식단, makeat</>}
-        desc="안녕하세요 여러분 makeat 구매해주시죠"
+        headline={<>FOOD의 개념을 바꾸다<br/>​가장 진보한 미래의<br/> 프랜차이즈를 미리 만나다</>}
+        desc="건강을 위한, 나만을 위한 FOOD MAKEAT"
         onClick={navigateToMakeatPage}
         text="makeat 구매하기"
         color="orange"
       />
       <SubContent
-        label="Franchises & Businesses"
-        headline="makeat assemble"
+        label="Franchises"
+        headline="가장 쉬운 미래형 프렌차이즈"
+        desc="온라인에서 앱에 기반하여 디지털로 확장하는 신개념 푸드 서비스"
         text="Do you want makeat?"
         onClick={navigateToFranchisePage}
+        concept={forFranchiseContentList}
       />
       <SubContent
         color="on"
